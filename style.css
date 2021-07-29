@@ -1,0 +1,114 @@
+body {
+	Margin: 0;
+	padding: 0;
+    background-color: #f6f5fc;
+    font-family: sans-serif;
+}
+
+table {
+	border-spacing: 0;
+}
+
+td {
+	padding: 0;
+    }
+
+img {
+	border: 0;
+    }
+
+
+
+.main {
+    width: 100%;
+    table-layout: fixed;
+    background-color: #f6f5fc;
+    padding-bottom: 40px;
+}
+
+
+.webkit {
+    max-width: 600px;
+    background-color: #fff; 
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.layout {
+    width: 100%;
+    max-width: 600px;
+    border-spacing: 0;
+    color: #4a4a4a;
+}
+
+.table-logo {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.logo-body {
+    background-color: #388cdA;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.three-columns {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.three-columns .column {
+    width: 100%;
+    max-width: 195px;
+    /* make table align next to one another */
+    display: inline-block; 
+    vertical-align: top;
+}
+
+.padding {
+    padding: 15px;
+}
+
+
+.product {
+    max-width: 150px;
+}
+
+
+.three-columns .content {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+.apple {
+    font-size: 17px;
+    
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #388CDA;
+    font-size: 16px;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 600px){
+
+}
+
+@media screen and (max-width: 400px) {
+    
+}
+
